@@ -140,7 +140,7 @@ header{
 .main-logo{
 	position: absolute;
 	display: flex;
-	width: 100%;
+	width: 70%;
 	transition: all .50s ease;
 }
 
@@ -169,6 +169,9 @@ footer a{
 	}
 	.child{
 		background-size: cover;
+	}
+	.main-logo{
+		width: 100%;
 	}
 }
 
