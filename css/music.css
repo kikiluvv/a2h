@@ -450,13 +450,15 @@ footer a{
 		flex-wrap: wrap;
 		align-content: center;
 		justify-content: center;
+		display: flex;
+		align-items: center;
 	}
 
 	.landing-child{
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
-    	height: 20vh;
+    	height: 35vh;
 		flex: 1;
 		margin-top: 20vh;
     	transition: all .50s ease;
@@ -470,6 +472,8 @@ footer a{
 		display: flex;
 		position: absolute;
 		height: 25vh;
+		align-self: center;
+		margin-left: 15%;
 	}
 
 	.child{
