@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>a2h - socials</title>
+    <meta name="language" content="English">
+	  <meta name="author" content="kiki luvv">
+    <link rel="stylesheet" type="text/css" href="/css/contact.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+	  <link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+	  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">	
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="canonical" href="https://www.a2h.digital">
+	  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	  <link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+	<meta name="msapplication-TileColor" content="#2b5797">
+	<meta name="theme-color" content="#000000">
+</head>
+<body>
+
+    <header>
+		<a href="/index.html" class="logo"><img src="/assetts/a2h.gif" alt="a2h logo"></i><span></span></a>
+
+		<ul class="navbar">
+      <li><a href="/index.html">Home</a></li>
+			<li><a href="/html/kits.html">Kits</a></li>
+			<li><a href="/html/music.html">Music</a></li>
+			<li><a href="/html/videos.html">Videos</a></li>
+      <li><a href="#" class="active">Contact</a></li>
+		</ul>
+
+		<div class="main">
+			<a href="/html/cart.html" class="user"><i class="ri-shopping-cart-2-fill"></i></i></a>
+			<div class="bx bx-menu" id="menu-icon"></div>
+		</div>
+	</header>
+	<!--js link--->
+	<script type="text/javascript" src="/js/script.js"></script>
+  <!-- Loads <model-viewer> for browsers: -->
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <script src="/js/mv.js"></script>
+    <div class="container">
+
+        <div class="child">
+          kiki luvv
+          <ul class="socials">
+            <li><a href="https://www.instagram.com/undergroundchamber/"><i class="ri-instagram-fill"></i> Instagram</a></li> 
+            <li><a href="https://twitter.com/kikiluvv19wdy"><i class="ri-twitter-fill"></i> Twitter</a></li> 
+            <li><a href="#"><i class="ri-twitch-fill"></i> Twitch</a></li> 
+            <li><a href="#"><i class="ri-youtube-fill"></i> YouTube</a></li> 
+            <li><a href="https://soundcloud.com/kiki_luvv333?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"><i class="ri-soundcloud-fill"></i> Soundcloud</a></li> 
+            <li><a href="https://open.spotify.com/user/keagan.n?si=bf70a10eba574392"><i class="ri-spotify-fill"></i> Spotify</a></li> 
+            <li><a href="https://discord.gg/WBEREuW582"><i class="ri-discord-fill"></i> Discord</a></li> 
+          </ul>
+          <div class="model-container">
+            <!-- <model-viewer> HTML element -->
+        <model-viewer 
+            src="/assetts/kikiluvv.glb" 
+            ar ar-modes="webxr scene-viewer quick-look" 
+            camera-controls poster="/assetts/poster.webp" 
+            shadow-intensity="1" 
+            auto-rotate min-camera-orbit="auto 49deg auto" 
+            max-camera-orbit="auto 116deg auto">
+
+          <div class="progress-bar hide" slot="progress-bar">
+            <div class="update-bar"></div>
+          </div>
+          <button slot="ar-button" id="ar-button">
+          View in your space
+          </button>
+          <div id="ar-prompt">
+            <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+          </div>
+          </model-viewer>  
+          </div>
+        </div>
+        
+        <div class="child">
+          eeth
+          <ul class="socials">
+            <li><a href="https://www.instagram.com/eeth14xx/"><i class="ri-instagram-fill"></i> Instagram</a></li> 
+            <li><a href="#"><i class="ri-twitter-fill"></i> Twitter</a></li> 
+            <li><a href="#"><i class="ri-twitch-fill"></i> Twitch</a></li> 
+            <li><a href="https://www.youtube.com/@prodbyeeth"><i class="ri-youtube-fill"></i> YouTube</a></li> 
+            <li><a href="https://soundcloud.com/eeth1988?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"><i class="ri-soundcloud-fill"></i> Soundcloud</a></li> 
+            <li><a href="https://open.spotify.com/user/jgoeddertz-us?si=811e13f4f7064629"><i class="ri-spotify-fill"></i> Spotify</a></li> 
+            <li><a href="https://discord.gg/WBEREuW582"><i class="ri-discord-fill"></i> Discord</a></li> 
+          </ul>
+          <div class="model-container">
+                <!-- <model-viewer> HTML element -->
+            <model-viewer 
+            src="/assetts/eeth.glb" 
+            ar ar-modes="webxr scene-viewer quick-look" 
+            camera-controls poster="/assetts/poster2.webp" 
+            shadow-intensity="1" 
+            exposure="1" 
+            auto-rotate min-camera-orbit="auto 49deg auto" 
+            max-camera-orbit="auto 116deg auto">
+              <div class="progress-bar hide" slot="progress-bar">
+                  <div class="update-bar"></div>
+              </div>
+              <button slot="ar-button" id="ar-button">
+                  View in your space
+              </button>
+              <div id="ar-prompt">
+                  <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+              </div>
+          </model-viewer>
+          </div>
+        </div>
+        
+      </div>
+
+</body>
+<footer>
+	<p>
+		(appeal ² heaven † 2023) ™<br>
+		website by kikiluvv
+    <br>
+		3d models by <a href="https://sketchfab.com/MDARBAZ_.OR___-PACEGAMINGFF">PACE</a>
+	</p>
+</footer>
+</html>

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>a2h - music</title>
+	<meta name="language" content="English">
+	<meta name="author" content="kiki luvv">
+	<link rel="stylesheet" type="text/css" href="/css/music.css">
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">	
+	<link rel="canonical" href="https://www.a2h.digital">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+	<meta name="msapplication-TileColor" content="#2b5797">
+	<meta name="theme-color" content="#000000">
+</head>
+<body>
+
+	<header>
+		<a href="/index.html" class="logo"><img src="/assetts/a2h.gif" alt="a2h logo"></i><span></span></a>
+
+		<ul class="navbar">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/html/kits.html">Kits</a></li>
+			<li><a href="#" class="active">Music</a></li>
+			<li><a href="/html/videos.html">Videos</a></li>
+			<li><a href="/html/contact.html">Contact</a></li>
+		</ul>
+
+		<div class="main">
+			<a href="/html/cart.html" class="user"><i class="ri-shopping-cart-2-fill"></i></i></a>
+			<div class="bx bx-menu" id="menu-icon"></div>
+		</div>
+	</header>
+	<!--js link--->
+	  <script type="text/javascript" src="/js/script.js"></script>
+    <script type="text/javascript" src="/js/music.js"></script>
+    <script type="text/javascript" src="/js/tracks.js"></script>
+    <!-- Load Stripe.js on your website. -->
+    <script src="https://js.stripe.com/v3"></script>
+    <script type="text/javascript" src="https://checkoutpage.co/js/overlay.js" defer></script>
+
+    <div class="main-container">
+        <div id="landing">
+            <div class="landing-child">
+                <h3 class="image-caption">a2h Certified Compilations<br></h3>
+                <a href="#" class="caption-button" onclick="return show('compilations','landing');">Click Here</a>
+            </div>
+            <div class="landing-child">
+                <h3 class="image-caption">Individual Tracks For Sale<br></h3>
+                <a href="#" class="caption-button" onclick="return show('tracks','landing');">Click Here</a>
+            </div>
+            <div class="landing-gif">
+              <img src="/assetts/cross.gif">
+            </div>
+        </div>
+        
+        
+        <div id="compilations" style="display:none">
+            <div class="container">
+                <!--kiki soundcloud-->
+                <div class="child">
+                  <div class="holder">
+                    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1416836062&color=%233c6494&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/kiki_luvv333" title="kiki luvv ☾" target="_blank" style="color: #cccccc; text-decoration: none;">kiki luvv ☾</a> · <a href="https://soundcloud.com/kiki_luvv333/a2h-2k22" title="a2h† 2k22" target="_blank" style="color: #cccccc; text-decoration: none;">a2h† 2k22</a></div>
+                </div>
+                </div>
+                <!--eeth soundcloud-->
+                <div class="child">
+                <div class="holder">
+                    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1408423930&color=%233c6494&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/eeth1988" title="eeth" target="_blank" style="color: #cccccc; text-decoration: none;">eeth</a> · <a href="https://soundcloud.com/eeth1988/2022a2h" title="2022finale #a2h †" target="_blank" style="color: #cccccc; text-decoration: none;">2022finale #a2h †</a></div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="tracks" style="display: none;">
+            <div class="track-container">
+                <!--Individual Beatz-->
+                <div class="track-child">
+                        <div class="audio-holder">
+                            <p class="audio-caption">gum - eeth x kikiluvv</p>
+                            <audio controls controlsList="nodownload" class="audio">
+                                <source src="/assetts/magnificent.mp3" type="audio/mpeg">
+                              Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                        <div class="button-holder">
+                          <a href="https://checkoutpage.co/c/appeal2heaven/example-checkout" class="cp-button">Buy now</a>
+                        </div>
+                </div>
+
+                <div class="track-child">
+                        <div class="audio-holder">
+                            <p class="audio-caption">magnificent - eeth x kikiluvv</p>
+                            <audio controls controlsList="nodownload" class="audio">
+                                <source src="magnificent.mp3" type="audio/mpeg">
+                              Your browser does not support the audio element.
+                            </audio>
+                        </div>    
+                        <div class="button-holder">
+                          <a href="https://checkoutpage.co/c/appeal2heaven/example-checkout" class="cp-button">Buy now</a>
+                        </div>        
+                </div>
+
+                <div class="track-child">
+                  <div class="audio-holder">
+                    <p class="audio-caption">mouse - kikiluvv</p>
+                    <audio controls controlsList="nodownload" class="audio">
+                      <source src="magnificent.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                  </audio>
+                  </div>
+                  <div class="button-holder">
+                  <a href="https://checkoutpage.co/c/appeal2heaven/example-checkout" class="cp-button">Buy now</a>
+                  </div>
+                </div>
+
+                <div class="track-child mobile-hide">
+                  <div class="audio-holder">
+                    <p class="audio-caption">des1ignerbo1 - kikiluvv x taylor morgan x 4ever</p>
+                    <audio controls controlsList="nodownload" class="audio">
+                      <source src="magnificent.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                  </audio>
+                  </div>
+                  <div class="button-holder">
+                    <a href="https://checkoutpage.co/c/appeal2heaven/example-checkout" class="cp-button">Buy now</a>
+                  </div>
+                </div>
+
+                <div class="track-child mobile-hide">
+                  <div class="audio-holder">
+                    <p class="audio-caption">flag - kikiluvv x eeth</p>
+                    <audio controls controlsList="nodownload" class="audio">
+                      <source src="magnificent.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                  </audio>
+                  </div>
+                  <div class="button-holder">
+                    <a href="https://checkoutpage.co/c/appeal2heaven/example-checkout" class="cp-button">Buy now</a>
+                  </div>
+                </div>
+
+                <div class="track-child mobile-hide">
+                  <div class="audio-holder">
+                    <p class="audio-caption">th1ne - eeth</p>
+                    <audio controls controlsList="nodownload" class="audio">
+                      <source src="magnificent.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                  </audio>
+                  </div>
+                  <div class="button-holder">
+                    <a href="https://checkoutpage.co/c/appeal2heaven/example-checkout" class="cp-button">Buy now</a>
+                  </div>
+                </div>
+
+                <div class="track-child mobile-hide">
+                  <div class="audio-holder">
+                    <p class="audio-caption">origen - eeth</p>
+                    <audio controls controlsList="nodownload" class="audio">
+                      <source src="magnificent.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                  </audio>
+                  </div>
+                  <div class="button-holder">
+                    <a href="https://checkoutpage.co/c/appeal2heaven/example-checkout" class="cp-button">Buy now</a>
+                  </div>
+                </div>
+                <div class="track-child mobile-hide">
+                  <div class="audio-holder">
+                    <p class="audio-caption">smoke - kikiluvv x nihil2free</p>
+                    <audio controls controlsList="nodownload" class="audio">
+                      <source src="magnificent.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                  </audio>
+                  </div>
+                  <div class="button-holder">
+                    <a href="https://checkoutpage.co/c/appeal2heaven/example-checkout" class="cp-button">Buy now</a>
+                  </div>
+                </div>
+                <div class="track-child mobile-hide">
+                  <div class="audio-holder">
+                    <p class="audio-caption">hive mind - eeth</p>
+                    <audio controls controlsList="nodownload" class="audio">
+                      <source src="magnificent.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                  </audio>
+                  </div>
+                  <div class="button-holder">
+                    <a href="https://checkoutpage.co/c/appeal2heaven/example-checkout" class="cp-button">Buy now</a>
+                  </div>
+                </div>
+                <button class="pc-hide view-button">
+                  <div class="view-text">View More</div>
+                </button>
+            </div>
+         </div>
+</body>
+
+    <footer class="footer">
+        <p>
+            (appeal ² heaven † 2023) ™<br>
+            website by kikiluvv
+            <br>
+            3d models by <a href="https://sketchfab.com/MDARBAZ_.OR___-PACEGAMINGFF">PACE</a>
+        </p>
+    </footer>
+</html>
